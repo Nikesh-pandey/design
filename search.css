@@ -1,0 +1,703 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+     
+     /* background-color:rgba(0, 139, 139, 0.502)  ;  */
+
+}
+.nav{
+    background-color: whitesmoke;
+    display: flex;
+  
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+position: fixed;
+    padding:0 30px;
+}
+.both{
+    display: flex;
+}
+ .Fashion{
+    border:4px solid var(#ea3a60); 
+    color: red;
+    /* border-right: 50px; */
+    border-right: 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+    /* Font weight kura 18pxtyoe */
+   } 
+   .floor{
+    padding: 10px 10px;
+    color: dimgray;
+    font-size: 15px;
+
+   }
+
+.search button{
+     border-radius: 30px; 
+  padding:5px 5px; 
+  background-color:brown;
+    
+}
+.nav ul{
+  
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 10px;
+   
+    
+}
+.nav li{
+    list-style-type:none;
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+.nav li a{
+    padding: 10px;
+ text-decoration: none; 
+   color: Black;
+   /* border: 2px solid black;  */
+   /* border-radius: 20px; */
+   /* margin: 10px;
+   background-color: rosybrown; */
+    /* border: 1px solid green; */
+    font-size: 20px;
+   
+}
+a:hover{
+    border-bottom: 2px solid #ea3a60;
+    
+}
+.contact{
+    font-size: 10px ;
+}
+@media screen and (max-width:1000px) {
+    nav{
+        width: 95%;
+    }
+}
+@media screen and (min-width:700px) {
+    nav{
+        width: 75%;
+    }
+}
+@media screen and (min-width:900px) {
+    nav{
+        width: 65%;
+    }
+}
+@media screen and (max-width:1200px) {
+    nav{
+        width: 50%;
+    }
+}
+
+
+/* Second part */
+
+
+.body{
+    width: 100%;
+    height: 90vh;
+font-size: 20px;
+color:white;
+ padding-left: 80px; 
+ padding-top: 150px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.484),rgba(0, 0, 0, 0.484)),url(photos/slide1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/* overflow-y: hidden; */
+}
+
+
+
+.body-text h1{
+    margin:20px 0;
+}
+
+.body-text #para2{
+    margin-bottom: 20px;
+}
+
+ .last button{
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: aliceblue;
+    background-color: #ea3a60;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+ border-bottom-left-radius:10px;
+ border-bottom-right-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+
+}  
+.last #con{
+    /* border: ; */
+    background-color:rgba(255, 255, 255, 0.215);
+}
+.thirdpart{
+    display: flex;
+    width: 100%;
+    padding: 30px 40px;
+    margin:30px 30px;
+    
+}
+.left{
+    height: 70vh;
+    width: 50%;
+    margin-left: 50px;
+    padding: 50px ;
+     /* border: 1px solid red;  */
+     padding-left: 10px;
+    /* Remains=tesxt lai left mah rakhne */
+}
+.left p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.842);
+    line-height: 50px;
+}
+.left h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.842);
+    }
+    .left #lorem{
+        color: rgba(0, 0, 0, 0.505);
+        font-size: 20px;
+    }
+.Right{
+    width: 50%;
+   
+    
+    padding:  30px 50px;
+    /* border: 1px solid black; */
+    background-image: url(photos/about.jpg);
+ background-repeat: no-repeat;
+    box-sizing: border-box;
+   
+    box-shadow: 13px -26px 0px 0px rgba(0,0,0,0.13);
+-webkit-box-shadow: 13px -26px 0px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: 13px -26px 0px 0px rgba(0,0,0,0.13) 
+/*  Remains=Back ground box sizing  */
+}
+.knowmore button{
+    margin: 30px;
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: red;
+    background-color: white;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+ border-bottom-left-radius:10px;
+ border-bottom-right-radius: 10px;
+}
+
+
+/* 2nd */
+.services{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 150vh;
+    padding: 20px;
+    
+}
+
+.Header{
+    padding: 20px 40px;
+    color: rgba(0, 0, 0, 0.792);
+}
+.middle{
+   width: 100%;
+display: flex;
+padding: 10px 10px;
+flex-wrap: wrap;
+}
+.plansandproject{
+    width: 28%;
+    height: 50vh;
+    padding: 40px 25px;                                                 
+     margin: 30px 2.5%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: black;
+    background-color: white;
+
+    
+}
+.interiordecor{
+    width: 28%;
+    height: 50vh;
+    /* padding: 50px 30px; */
+    padding: 40px 25px;                                                 
+
+    margin: 30px 2.5%; 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+.Homedecoration{
+    width: 28%;
+    height: 50vh;
+    /* padding: 50px 30px; */
+    padding: 40px 25px;                                                 
+
+    margin: 30px 3%; 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+.plansandproject #idee{
+    padding-top: 15px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.436);
+    padding-bottom: 30px;
+
+}
+.interiordecor #second{
+    padding-top: 15px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.436);
+    padding-bottom: 30px;
+}
+.Homedecoration #third{
+    padding-top: 15px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.436);
+    padding-bottom: 30px;
+}
+.plansandproject button{
+    background-color: white;
+    border: 0px solid white;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.interiordecor button{
+    background-color: white;
+    border: 0px solid white;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.Homedecoration button{
+    background-color: white;
+    border: 0px solid white;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.plansandproject i{
+    padding-top: 5px;
+    padding-left: 5px;
+    color:#ea3a60;
+    padding: 20px;
+}
+.interiordecor i{
+    color:#ea3a60;
+    padding: 20px;
+}
+.Homedecoration i{
+    color:#ea3a60;
+    padding: 20px;
+}
+.icontext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.text{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.087);
+   
+}
+.icontext1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.number1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.087);
+}
+.icontext3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.number3{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.087);
+}
+.Buttom{
+    width:100%;
+    display: flex;
+    margin-top: 20px;
+align-items: flex-start;
+}
+
+/* Fourth part */
+
+/* .header1{
+    overflow: hidden;
+} */
+.fifth{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.middle1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    /* overflow: hidden; */
+}
+.a{
+    width: 23%;
+    height: 60vh;
+    padding: 40px 25px;                                                 
+     margin: 30px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: black;
+    background-color: white;
+    background-image: url(photos/w1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.b{
+    width: 23%;
+    height: 60vh;
+    padding: 40px 25px;                                                 
+     margin: 30px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: black;
+    background-color: white;
+    background-image: url(photos/w2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c{
+    width: 23%;
+    height: 60vh;
+    padding: 40px 25px;                                                 
+     margin: 30px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: black;
+    background-color: white;
+    background-image: url(photos/w3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d{
+    width: 23%;
+    height: 60vh;
+    padding: 40px 25px;                                                 
+     margin: 30px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: black;
+    background-color: white;
+    background-image: url(photos/w4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a button{
+    margin-top: 140%;
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+    font-size: 25px;
+    border: 0px solid white;
+    color: rgba(0, 0, 0, 0.715);
+    transition: 10s;
+}
+.b button{
+    margin-top: 140%;
+    height: 10vh;
+    width: 100%;
+    background-color:white ;
+    font-size: 25px;
+    border: 0px solid white;
+    color: rgba(0, 0, 0, 0.715);
+    transition: 10s;
+}
+.c button{
+    margin-top: 140%;
+    height: 10vh;
+    width: 100%;
+    background-color:white ;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.715);
+   
+    border: 0px solid rgba(255, 255, 255, 0.918);
+    transition: 10s;
+}
+.d button{
+    margin-top: 140%;
+    height: 10vh;
+    width: 100%;
+    background-color:white ;
+    font-size: 25px;
+    border: 0px solid white;
+    color: rgba(0, 0, 0, 0.715);
+    transition: 10s;
+}
+.a:hover{
+    transform: translate(0px, -4px);
+}
+.b:hover{
+    transform: translate(0px, -4px);
+}
+.c:hover{
+    transform: translate(0px, -4px);
+}
+ 
+.d:hover{
+    transform: translate(0px, -4px);
+}
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fourth part */
+.project{
+    width: 100%;
+    
+    background-color: white;
+    padding: 20px;
+
+}
+.whole{
+
+    width: 100%;
+    height: 90vh;
+font-size: 20px;
+color:white;
+ padding-left: 80px; 
+ padding-top: 150px;
+background-image:url(photos/slide1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/* Fifth */
+.infographic{
+    height: 60vh;
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+.years{
+    width: 25%;
+    height: 35vh;
+    padding: 40px 25px;                                                 
+     margin: 60px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+    color: rgba(255, 0, 0, 0.699);
+    background-color: white;
+   
+
+  
+}
+.followers{
+    width: 25%;
+    height: 35vh;
+    padding: 40px 25px;                                                 
+     margin: 60px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+     color: rgba(255, 0, 0, 0.699);
+    background-color: white;
+    
+
+  
+}
+.experience{
+    width: 25%;
+    height: 35vh;
+    padding: 40px 25px;                                                 
+     margin: 60px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+     color: rgba(255, 0, 0, 0.699);
+    background-color: white;
+
+    
+  
+}
+.twiter{
+    width: 25%;
+    height: 35vh;
+    padding: 40px 25px;                                                 
+     margin: 60px 1%; 
+     border: 3px solid white;
+     border-radius: 10px;
+     font-size: 25px;
+     color: rgba(255, 0, 0, 0.699);
+    background-color: white;
+
+}
+.years #di{
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 15px;
+}
+.followers #di{
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 15px;
+}
+.experience #di{
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 15px;
+}
+.twiter #di{
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.489);
+    font-size: 15px;
+}
+
+
+   /* Sixth */
+
+.black{
+    height: 60vh;
+    width: 100%;
+    /* padding: 30px 30px; */
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+/* .blacksecond{
+    
+    height: 80vh;
+     width: 100%; 
+     padding: 20px 50px; 
+     margin: 0px 20px;
+    display: flex;
+    background-color:black;
+    border: 2px solid red;
+} */
+.aboutcompany{
+    width: 50%;
+    height: 40vh;
+    padding: 30px 30px;                                                 
+     margin: 60px 2%; 
+     /* border: 3px solid white;  */
+     /* border-radius: 10px; */
+      font-size: 20px;  
+    color:white;
+
+    /* background-color: rgba(0, 0, 0, 0.368); */
+}
+.usefullinks{
+    width: 50%;
+    height: 40vh;
+    padding: 40px 30px;                                                 
+     margin: 60px 2%; 
+       /* border: 3px solid white;   */
+     /* border-radius: 10px; */
+     font-size: 20px;
+    color:white;
+    /* background-color:red; */
+}
+.latestfromblogs{
+
+    width: 50%;
+    height: 40vh;
+    padding: 40px 30px;                                                 
+     margin: 60px 2%; 
+       /* border: 3px solid white;  */
+     /* border-radius: 10px;  */
+     font-size: 20px;
+    color: white;
+    /* background-color: red; */
+
+}
+
+.aboutcompany #lol{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.aboutcompany i{
+    margin: 2px;
+}
+.usefullinks #lol1{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.usefullinks i{
+    color: white;
+    /* margin: 2px; */
+}
+.usefullinks #lol2{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.usefullinks #lol3{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.latestfromblogs #lol4{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.latestfromblogs #lol5{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.latestfromblogs #lol6{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
+.latestfromblogs #lol7{
+    padding: 10px 0px; 
+    color: white;
+    font-size: 15px;
+}
